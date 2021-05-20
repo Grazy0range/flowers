@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.wrapper .sing-in .container .sing-in__head {
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  line-height: 49px;
+  color: #D74C4C;
+  text-align: center;
+}
+.wrapper .sing-in .container .sing-in__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.wrapper .sing-in .container .sing-in__form .form__email {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.wrapper .sing-in .container .sing-in__form .form__email label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  margin-bottom: 10px;
+}
+.wrapper .sing-in .container .sing-in__form .form__email input {
+  max-width: 100%;
+  border: 2px solid #D74C4C;
+  background-color: transparent;
+  padding: 14px;
+}
+.wrapper .sing-in .container .sing-in__form .form__password {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .sing-in .container .sing-in__form .form__password label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111111;
+  margin-bottom: 10px;
+}
+.wrapper .sing-in .container .sing-in__form .form__password input {
+  max-width: 100%;
+  border: 2px solid #D74C4C;
+  background-color: transparent;
+  padding: 14px;
+}
+.wrapper .sing-in .container .sing-in__form .form__buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .sing-in .container .sing-in__form .form__buttons input {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #D74C4C;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 10px 82px;
+}

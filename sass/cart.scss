@@ -1,0 +1,55 @@
+.wrapper {
+    height: 100%;
+
+    .cart {
+        min-height: 1200px;
+
+        .container {
+            .cart__head {
+                font-family: 'Pacifico', cursive;
+                font-size: 30px;
+                line-height: 53px;
+                color: #D74C4C;
+            }
+
+            .cart__item {
+                display: flex;
+                margin-bottom: 50px;
+
+                .item__info {
+                    display: flex;
+
+                    .item__img {
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                    .info__text {
+                        margin-left: 40px;
+
+                        .info__name {
+                            margin: 0;
+                            font-family: 'Pacifico', cursive;
+                            font-size: 30px;
+                            line-height: 53px;
+                            color: #D74C4C;
+                        }
+
+                        .info__description {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 22px;
+                            line-height: 26px;
+                            color: #000000;
+                            margin: 16px 0;
+                        }
+                    }
+                }
+
+                .item__delete {
+                    cursor: pointer;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}

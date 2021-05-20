@@ -1,0 +1,44 @@
+.wrapper {
+  height: 100%;
+}
+.wrapper .cart {
+  min-height: 1200px;
+}
+.wrapper .cart .container .cart__head {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  line-height: 53px;
+  color: #D74C4C;
+}
+.wrapper .cart .container .cart__item {
+  display: flex;
+  margin-bottom: 50px;
+}
+.wrapper .cart .container .cart__item .item__info {
+  display: flex;
+}
+.wrapper .cart .container .cart__item .item__info .item__img {
+  width: 250px;
+  height: 250px;
+}
+.wrapper .cart .container .cart__item .item__info .info__text {
+  margin-left: 40px;
+}
+.wrapper .cart .container .cart__item .item__info .info__text .info__name {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  line-height: 53px;
+  color: #D74C4C;
+}
+.wrapper .cart .container .cart__item .item__info .info__text .info__description {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin: 16px 0;
+}
+.wrapper .cart .container .cart__item .item__delete {
+  cursor: pointer;
+  margin-top: 24px;
+}

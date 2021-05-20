@@ -1,0 +1,96 @@
+/* ������� */
+.slick-slider {height: 100%;
+    position: relative;}
+
+/* Slider is start */
+.slick-slider.slick-initialized {}
+
+/* Slider with dott */
+.slick-slider.slick-dotted {}
+
+/* Bounding shell */
+.slick-list {
+    overflow: hidden;
+    height: 1110px;
+}
+
+/* Slide ribbon */
+.slick-track {
+    display: flex;
+    outline: none;
+    border: none;
+}
+
+/* Slide*/
+.slick-slide {    
+    outline: none;
+    margin-right: 10px;
+
+}
+
+/* Active slide (displayed) */
+.slick-slide.slick-active {
+    outline: none;
+    border: none;
+}
+
+/* Main slide */
+.slick-slide.slick-current {
+
+}
+
+/* Center slide */
+.slick-slide.slick-center {}
+
+/* Cloned slide */
+.slick-slide.slick-cloned {
+}
+
+/* Arrow */
+.slick-arrow {
+    position: absolute;
+    z-index: 10;
+    top: 18px;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    line-height: 49px;
+    color: #D74C4C;
+    cursor: pointer;
+}
+
+.prev {
+    left: 311px;
+    top: 46px;
+}
+.prev:active  {
+    text-decoration: underline;
+}
+
+.next {
+    left: 622px;
+    top: 46px;
+}
+
+.next:active {
+    text-decoration: underline;
+}
+/* Left arrow */
+.slick-arrow.slick-prev {
+}
+/* Right arrow */
+.slick-arrow.slick-next {
+}
+
+/* Not active arrow */
+.slick-arrow.slick-disabled {}
+
+/* Points (shootouts) */
+.slick-dots {}
+
+.slick-dots li {}
+
+/* Active point */
+.slick-dots li.slick-active {}
+
+/* Point element */
+.slick-dots li button {}
