@@ -19,6 +19,7 @@ body {
 .container {
     width: 1160px;
     margin: 0 auto;
+    // position: relative;
 }
 
 
@@ -222,6 +223,22 @@ body {
 
 
                 .action-buttons__item {
+                    position: relative;
+
+                    &:nth-child(2) {
+                        &::after {
+                            content: "1";
+                            font-size: 10px;
+                            position: absolute;
+                            top: 11px;
+                            left: 6px;
+                            color: white;
+                            background: #D74C4C;
+                            padding: 3px 6px;
+                            border-radius: 50%;
+                        }
+                    }
+
                     .action-buttons__link {
                         .link__img {
                             height: 20px;
@@ -347,7 +364,6 @@ body {
                         .social-nav__link {
                             text-decoration: none;
 
-                            .nav__link-img {}
                         }
                     }
                 }
@@ -386,8 +402,6 @@ body {
                 }
 
                 .accordeon-item {
-                    .accordeon-item__trigger {}
-
                     .accordeon-item__content {
                         padding: 20px;
                         display: none;
@@ -743,7 +757,7 @@ body {
 // ADVANTAGES
 
 .advantages {
-    padding-bottom: 500px;
+    padding: 70px 0 100px;
 
     .container {
         display: flex;
@@ -772,10 +786,21 @@ body {
                 line-height: 19px;
                 color: #111111;
 
+                .item__img {
+                    width: 70px;
+                    height: 70px;
+                }
+
                 .item__text {
                     margin-top: 30px;
                 }
             }
+        }
+
+        hr {
+            width: 100%;
+            background-color: #d74c4c;
+            height: 3px;
         }
     }
 }

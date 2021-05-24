@@ -1590,7 +1590,7 @@
         }
 
         .slick-list {
-            height: 1170px;
+            height: 930px;
         }
 
         .slick-slide {
@@ -1618,6 +1618,7 @@
 
 
     .advantages {
+        padding: 70px 0 100px;
 
         .container {
 
@@ -1842,9 +1843,9 @@
                                     margin-left: 6px;
 
                                     .right__button {
-                                        padding: 5px 10px;
+                                        padding: 1px 6px;
                                         font-size: 10px;
-                                        margin: 0px 0 0 3px;
+                                        margin: 5px 0 0 10px;
 
                                         &:hover {}
                                     }

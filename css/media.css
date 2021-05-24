@@ -695,7 +695,7 @@
     font-size: 26px;
   }
   .slider__catalog .slick-list {
-    height: 1170px;
+    height: 930px;
   }
   .slider__catalog .slick-slide {
     transform: scale(0.7);
@@ -715,6 +715,9 @@
     z-index: 1;
   }
 
+  .advantages {
+    padding: 70px 0 100px;
+  }
   .advantages .container .advantages__head {
     font-size: 26px;
   }
@@ -835,9 +838,9 @@
     margin-left: 6px;
   }
   .slider__catalog .container .slider .slider__screen .slider__list .slider__item .link__content .content__right .right__button {
-    padding: 5px 10px;
+    padding: 1px 6px;
     font-size: 10px;
-    margin: 0px 0 0 3px;
+    margin: 5px 0 0 10px;
   }
   .slider__catalog .container .slider .slider__screen .slider__button {
     margin-left: 0px;

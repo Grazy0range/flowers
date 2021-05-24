@@ -141,7 +141,7 @@
     height: 100%;
   }
   .wrapper .cart {
-    min-height: 1200px;
+    min-height: 700px;
   }
   .wrapper .cart .container .cart__head {
     font-family: "Pacifico", cursive;
@@ -155,32 +155,31 @@
   }
   .wrapper .cart .container .cart__item .item__info {
     display: flex;
-    flex-direction: column-reverse;
   }
   .wrapper .cart .container .cart__item .item__info .item__img {
-    width: 170px;
-    height: 170px;
+    width: 120px;
+    height: 120px;
   }
   .wrapper .cart .container .cart__item .item__info .info__text {
-    margin-left: 0;
+    margin-left: 15px;
   }
   .wrapper .cart .container .cart__item .item__info .info__text .info__name {
     margin: 0;
     font-family: "Pacifico", cursive;
-    font-size: 22px;
-    line-height: 53px;
+    font-size: 20px;
+    line-height: 34px;
     color: #D74C4C;
   }
   .wrapper .cart .container .cart__item .item__info .info__text .info__description {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 26px;
     color: #000000;
     margin: 16px 0;
   }
   .wrapper .cart .container .cart__item .item__delete {
     cursor: pointer;
-    margin-top: 24px;
+    margin-top: 0;
   }
 }
 @media (max-width: 400px) {
@@ -188,7 +187,7 @@
     height: 100%;
   }
   .wrapper .cart {
-    min-height: 1200px;
+    min-height: 700px;
   }
   .wrapper .cart .container .cart__head {
     font-family: "Pacifico", cursive;
@@ -202,32 +201,30 @@
   }
   .wrapper .cart .container .cart__item .item__info {
     display: flex;
-    flex-direction: column-reverse;
   }
   .wrapper .cart .container .cart__item .item__info .item__img {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
   }
   .wrapper .cart .container .cart__item .item__info .info__text {
-    margin-left: 0;
+    margin-left: 15px;
   }
   .wrapper .cart .container .cart__item .item__info .info__text .info__name {
     margin: 0;
     font-family: "Pacifico", cursive;
-    font-size: 22px;
-    line-height: 53px;
+    font-size: 18px;
+    line-height: 34px;
     color: #D74C4C;
-    width: 270px;
   }
   .wrapper .cart .container .cart__item .item__info .info__text .info__description {
     font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 26px;
     color: #000000;
     margin: 16px 0;
   }
   .wrapper .cart .container .cart__item .item__delete {
     cursor: pointer;
-    margin-top: 24px;
+    margin-top: 0;
   }
 }
