@@ -1,6 +1,8 @@
 /* ������� */
-.slick-slider {height: 100%;
-    position: relative;}
+.slick-slider {
+    height: 100%;
+    position: relative;
+}
 
 /* Slider is start */
 .slick-slider.slick-initialized {}
