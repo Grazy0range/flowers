@@ -225,14 +225,14 @@
                         номер
                         и наш менеджер свяжется с Вами
                     </p>
-                    <form action="get" class="info__form">
+                    <form action="send.php" method="POST" class="info__form">
                         <div class="form__name">
                             <label for="Имя">Имя</label>
-                            <input type="text" id="Имя" name="Имя" placeholder="Лариса Гузеева">
+                            <input type="text" id="Имя" name="name" placeholder="Лариса Гузеева">
                         </div>
                         <div class="form__phone">
                             <label for="Телефон">Телефон</label>
-                            <input type="text" id="Телефон" name="Телефон" placeholder="+7(9**)***-****">
+                            <input type="text" id="Телефон" name="phone" placeholder="+7(9**)***-****">
                         </div>
                         <input type="button" value="Отправить">
                     </form>

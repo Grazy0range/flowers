@@ -1,0 +1,549 @@
+@media (min-width: 993px) and (max-width: 1400px) {
+    .wrapper {
+        height: 100%;
+
+        .cart {
+            min-height: 1200px;
+
+            .container {
+                .cart__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .cart__item {
+                    display: flex;
+                    margin-bottom: 50px;
+
+                    .item__info {
+                        display: flex;
+
+                        .item__img {
+                            width: 250px;
+                            height: 250px;
+                        }
+
+                        .info__text {
+                            margin-left: 40px;
+
+                            .info__name {
+                                margin: 0;
+                                font-family: 'Pacifico', cursive;
+                                font-size: 26px;
+                                line-height: 53px;
+                                color: #D74C4C;
+                            }
+
+                            .info__description {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 18px;
+                                line-height: 26px;
+                                color: #000000;
+                                margin: 16px 0;
+                            }
+
+                            .product__check {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 18px;
+                                display: flex;
+                                width: 300px;
+                                justify-content: space-between;
+                                margin-top: 80px;
+
+                                .check__price {
+                                    .price__name {
+                                        font-weight: 700;
+                                    }
+
+                                    .price__number {}
+                                }
+
+                                .check__counter {
+                                    .counter__name {
+                                        font-weight: 700;
+                                    }
+
+                                    input {
+                                        width: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .item__delete {
+                        cursor: pointer;
+                        margin-top: 24px;
+                    }
+                }
+
+                .cart__buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 80px;
+
+                    .continue__button {
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 14px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        padding: 0;
+                        transition: all 0.3s;
+                        padding: 13px 90px;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .wrapper {
+        height: 100%;
+
+        .cart {
+            min-height: 1200px;
+
+            .container {
+                .cart__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .cart__item {
+                    display: flex;
+                    margin-bottom: 50px;
+
+                    .item__info {
+                        display: flex;
+
+                        .item__img {
+                            width: 230px;
+                            height: 230px;
+                        }
+
+                        .info__text {
+                            margin-left: 40px;
+
+                            .info__name {
+                                margin: 0;
+                                font-family: 'Pacifico', cursive;
+                                font-size: 26px;
+                                line-height: 53px;
+                                color: #D74C4C;
+                            }
+
+                            .info__description {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 18px;
+                                line-height: 26px;
+                                color: #000000;
+                                margin: 16px 0;
+                            }
+
+                            .product__check {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 18px;
+                                display: flex;
+                                width: 300px;
+                                justify-content: space-between;
+                                margin-top: 70px;
+
+                                .check__price {
+                                    .price__name {
+                                        font-weight: 700;
+                                    }
+
+                                    .price__number {}
+                                }
+
+                                .check__counter {
+                                    .counter__name {
+                                        font-weight: 700;
+                                    }
+
+                                    input {
+                                        width: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .item__delete {
+                        cursor: pointer;
+                        margin-top: 24px;
+                    }
+                }
+
+                .cart__buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 80px;
+
+                    .continue__button {
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 14px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        padding: 0;
+                        transition: all 0.3s;
+                        padding: 13px 70px;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .wrapper {
+        height: 100%;
+
+        .cart {
+            min-height: 1040px;
+
+            .container {
+                .cart__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .cart__item {
+                    display: flex;
+                    margin-bottom: 50px;
+
+                    .item__info {
+                        display: flex;
+
+                        .item__img {
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                        .info__text {
+                            margin-left: 40px;
+
+                            .info__name {
+                                margin: 0;
+                                font-family: 'Pacifico', cursive;
+                                font-size: 24px;
+                                line-height: 53px;
+                                color: #D74C4C;
+                            }
+
+                            .info__description {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 16px;
+                                line-height: 26px;
+                                color: #000000;
+                                margin: 16px 0;
+                            }
+
+                            .product__check {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 16px;
+                                display: flex;
+                                width: 250px;
+                                justify-content: space-between;
+                                margin-top: 30px;
+
+                                .check__price {
+                                    .price__name {
+                                        font-weight: 700;
+                                    }
+
+                                    .price__number {}
+                                }
+
+                                .check__counter {
+                                    .counter__name {
+                                        font-weight: 700;
+                                    }
+
+                                    input {
+                                        width: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .item__delete {
+                        cursor: pointer;
+                        margin-top: 24px;
+                    }
+                }
+
+                .cart__buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 80px;
+
+                    .continue__button {
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 14px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        padding: 0;
+                        transition: all 0.3s;
+                        padding: 10px 30px;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 401px) and (max-width: 576px) {
+    .wrapper {
+        height: 100%;
+
+        .cart {
+            min-height: 700px;
+
+            .container {
+                .cart__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .cart__item {
+                    display: flex;
+                    margin-bottom: 50px;
+
+                    .item__info {
+                        display: flex;
+
+                        .item__img {
+                            width: 120px;
+                            height: 120px;
+                        }
+
+                        .info__text {
+                            margin-left: 15px;
+
+                            .info__name {
+                                margin: 0;
+                                font-family: 'Pacifico', cursive;
+                                font-size: 20px;
+                                line-height: 34px;
+                                color: #D74C4C;
+                            }
+
+                            .info__description {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 12px;
+                                line-height: 20px;
+                                color: #000000;
+                                margin: 8px 0;
+                            }
+
+                            .product__check {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 12px;
+                                display: flex;
+                                width: 200px;
+                                justify-content: space-between;
+                                margin-top: 18px;
+
+                                .check__price {
+                                    .price__name {
+                                        font-weight: 700;
+                                    }
+
+                                    .price__number {}
+                                }
+
+                                .check__counter {
+                                    .counter__name {
+                                        font-weight: 700;
+                                    }
+
+                                    input {
+                                        width: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .item__delete {
+                        cursor: pointer;
+                        margin-top: 0;
+                    }
+                }
+
+                .cart__buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 80px;
+
+                    .continue__button {
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 12px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        padding: 0;
+                        transition: all 0.3s;
+                        padding: 4px 25px;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    .wrapper {
+        height: 100%;
+
+        .cart {
+            min-height: 700px;
+
+            .container {
+                .cart__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .cart__item {
+                    display: flex;
+                    margin-bottom: 50px;
+
+                    .item__info {
+                        display: flex;
+
+                        .item__img {
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        .info__text {
+                            margin-left: 15px;
+
+                            .info__name {
+                                margin: 0;
+                                font-family: 'Pacifico', cursive;
+                                font-size: 18px;
+                                line-height: 34px;
+                                color: #D74C4C;
+                            }
+
+                            .info__description {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 10px;
+                                line-height: 14px;
+                                color: #000000;
+                                margin: 6px 0;
+                            }
+
+                            .product__check {
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 10px;
+                                display: flex;
+                                width: 170px;
+                                justify-content: space-between;
+                                margin-top: 18px;
+
+                                .check__price {
+                                    .price__name {
+                                        font-weight: 700;
+                                    }
+
+                                    .price__number {}
+                                }
+
+                                .check__counter {
+                                    .counter__name {
+                                        font-weight: 700;
+                                    }
+
+                                    input {
+                                        width: 45px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .item__delete {
+                        cursor: pointer;
+                        margin-top: 0;
+                    }
+                }
+
+                .cart__buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 80px;
+
+                    .continue__button {
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 12px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        padding: 0;
+                        transition: all 0.3s;
+                        padding: 4px 15px;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,420 @@
+@media (min-width: 993px) and (max-width: 1400px) {
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper .cart {
+    min-height: 1200px;
+  }
+  .wrapper .cart .container .cart__head {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cart .container .cart__item .item__info {
+    display: flex;
+  }
+  .wrapper .cart .container .cart__item .item__info .item__img {
+    width: 250px;
+    height: 250px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text {
+    margin-left: 40px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__name {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 26px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin: 16px 0;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__price .price__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter .counter__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter input {
+    width: 45px;
+    text-align: center;
+  }
+  .wrapper .cart .container .cart__item .item__delete {
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  .wrapper .cart .container .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transition: all 0.3s;
+    padding: 13px 90px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button:hover {
+    background: #ec7575;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper .cart {
+    min-height: 1200px;
+  }
+  .wrapper .cart .container .cart__head {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cart .container .cart__item .item__info {
+    display: flex;
+  }
+  .wrapper .cart .container .cart__item .item__info .item__img {
+    width: 230px;
+    height: 230px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text {
+    margin-left: 40px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__name {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 26px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin: 16px 0;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__price .price__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter .counter__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter input {
+    width: 45px;
+    text-align: center;
+  }
+  .wrapper .cart .container .cart__item .item__delete {
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  .wrapper .cart .container .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transition: all 0.3s;
+    padding: 13px 70px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button:hover {
+    background: #ec7575;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper .cart {
+    min-height: 1040px;
+  }
+  .wrapper .cart .container .cart__head {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cart .container .cart__item .item__info {
+    display: flex;
+  }
+  .wrapper .cart .container .cart__item .item__info .item__img {
+    width: 200px;
+    height: 200px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text {
+    margin-left: 40px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__name {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    margin: 16px 0;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__price .price__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter .counter__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter input {
+    width: 45px;
+    text-align: center;
+  }
+  .wrapper .cart .container .cart__item .item__delete {
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  .wrapper .cart .container .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transition: all 0.3s;
+    padding: 10px 30px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button:hover {
+    background: #ec7575;
+  }
+}
+@media (min-width: 401px) and (max-width: 576px) {
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper .cart {
+    min-height: 700px;
+  }
+  .wrapper .cart .container .cart__head {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cart .container .cart__item .item__info {
+    display: flex;
+  }
+  .wrapper .cart .container .cart__item .item__info .item__img {
+    width: 120px;
+    height: 120px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text {
+    margin-left: 15px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__name {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    line-height: 34px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin: 8px 0;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__price .price__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter .counter__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter input {
+    width: 45px;
+    text-align: center;
+  }
+  .wrapper .cart .container .cart__item .item__delete {
+    cursor: pointer;
+    margin-top: 0;
+  }
+  .wrapper .cart .container .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transition: all 0.3s;
+    padding: 4px 25px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button:hover {
+    background: #ec7575;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    height: 100%;
+  }
+  .wrapper .cart {
+    min-height: 700px;
+  }
+  .wrapper .cart .container .cart__head {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    line-height: 53px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cart .container .cart__item .item__info {
+    display: flex;
+  }
+  .wrapper .cart .container .cart__item .item__info .item__img {
+    width: 100px;
+    height: 100px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text {
+    margin-left: 15px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__name {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    line-height: 34px;
+    color: #D74C4C;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .info__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    margin: 6px 0;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    margin-top: 18px;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__price .price__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter .counter__name {
+    font-weight: 700;
+  }
+  .wrapper .cart .container .cart__item .item__info .info__text .product__check .check__counter input {
+    width: 45px;
+    text-align: center;
+  }
+  .wrapper .cart .container .cart__item .item__delete {
+    cursor: pointer;
+    margin-top: 0;
+  }
+  .wrapper .cart .container .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    transition: all 0.3s;
+    padding: 4px 15px;
+  }
+  .wrapper .cart .container .cart__buttons .continue__button:hover {
+    background: #ec7575;
+  }
+}

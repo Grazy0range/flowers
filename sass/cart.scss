@@ -1,0 +1,109 @@
+.wrapper {
+    height: 100%;
+
+    .cart {
+        min-height: 1200px;
+
+        .container {
+            .cart__head {
+                font-family: 'Pacifico', cursive;
+                font-size: 30px;
+                line-height: 53px;
+                color: #D74C4C;
+            }
+
+            .cart__item {
+                display: flex;
+                margin-bottom: 50px;
+
+                .item__info {
+                    display: flex;
+
+                    .item__img {
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                    .info__text {
+                        margin-left: 40px;
+                        height: auto;
+
+                        .info__name {
+                            margin: 0;
+                            font-family: 'Pacifico', cursive;
+                            font-size: 30px;
+                            line-height: 53px;
+                            color: #D74C4C;
+                        }
+
+                        .info__description {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 22px;
+                            line-height: 26px;
+                            color: #000000;
+                            margin: 16px 0;
+                        }
+
+                        .product__check {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 22px;
+                            display: flex;
+                            width: 300px;
+                            justify-content: space-between;
+                            margin-top: 90px;
+
+                            .check__price {
+                                .price__name {
+                                    font-weight: 700;
+                                }
+
+                                .price__number {}
+                            }
+
+                            .check__counter {
+                                .counter__name {
+                                    font-weight: 700;
+                                }
+
+                                input {
+                                    width: 45px;
+                                    text-align: center;
+                                    margin-left: 5px;
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .item__delete {
+                    cursor: pointer;
+                    margin-top: 24px;
+                }
+            }
+
+            .cart__buttons {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 80px;
+
+                .continue__button {
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    line-height: 25px;
+                    color: #FFFFFF;
+                    background: #D74C4C;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                    padding: 0;
+                    transition: all 0.3s;
+                    padding: 13px 90px;
+
+                    &:hover {
+                        background: #ec7575;
+                    }
+                }
+            }
+        }
+    }
+}
