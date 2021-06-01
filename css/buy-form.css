@@ -1,0 +1,192 @@
+.buy_form .container .buy_form__head {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  line-height: 53px;
+  color: #D74C4C;
+}
+.buy_form .container .buy_form__description {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  margin: 16px 0;
+}
+.buy_form .container .buy_form__description span {
+  font-weight: 700;
+}
+.buy_form .container form .form_name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 25px 0 0 0;
+}
+.buy_form .container form .form_name label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+}
+.buy_form .container form .form_name label::after {
+  content: "*";
+  font-size: 16px;
+  left: 233px;
+  top: 0;
+  color: red;
+  position: absolute;
+}
+.buy_form .container form .form_name input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #b17c2c;
+  border-radius: 10px;
+  padding: 16px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #232323;
+  outline: none;
+}
+.buy_form .container form .form_mail {
+  display: inline-flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 25px 9% 25px 0;
+}
+.buy_form .container form .form_mail label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+}
+.buy_form .container form .form_mail label::after {
+  content: "*";
+  font-size: 16px;
+  left: 146px;
+  top: 0;
+  color: red;
+  position: absolute;
+}
+.buy_form .container form .form_mail input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #b17c2c;
+  border-radius: 10px;
+  padding: 16px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #232323;
+  outline: none;
+}
+.buy_form .container form .form_phone {
+  display: inline-flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 25px 0;
+}
+.buy_form .container form .form_phone label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  position: relative;
+  display: inline-block;
+}
+.buy_form .container form .form_phone label::after {
+  content: "*";
+  font-size: 16px;
+  left: 228px;
+  top: 0;
+  color: red;
+  position: absolute;
+}
+.buy_form .container form .form_phone input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #b17c2c;
+  border-radius: 10px;
+  padding: 16px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #232323;
+  outline: none;
+}
+.buy_form .container form .form_adress {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 25px 0;
+}
+.buy_form .container form .form_adress label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.buy_form .container form .form_adress input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #b17c2c;
+  border-radius: 10px;
+  padding: 16px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #232323;
+  outline: none;
+}
+.buy_form .container form .form_comment {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+}
+.buy_form .container form .form_comment label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.buy_form .container form .form_comment textarea {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #b17c2c;
+  border-radius: 10px;
+  padding: 16px 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #232323;
+  outline: none;
+}
+.buy_form .container form .form__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 50px 0;
+}
+.buy_form .container form .form__buttons label {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.buy_form .container form .form__buttons input {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: #D74C4C;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  transition: all 0.3s;
+  padding: 13px 70px;
+  border: none;
+  cursor: pointer;
+}
+.buy_form .container form .form__buttons input:hover {
+  background: #ec7575;
+}
