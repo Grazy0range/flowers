@@ -88,7 +88,7 @@
                 </ul>
                 <div class="header__action-buttons">
                     <ul class="actions-buttons__list">
-                        <li class="action-buttons__item"><a href="#" class="action-buttons__link"><img
+                        <li class="action-buttons__item search"><a href="#" class="action-buttons__link"><img
                                     src="img/search.png" alt="search" class="link__img"></a></li>
                         <li class="action-buttons__item"><a href="#" class="action-buttons__link"><img
                                     src="img/cart.png" alt="cart" class="link__img"></a></li>
@@ -223,7 +223,7 @@
                 </h3>
                 <div class="cart__item">
                     <div class="item__info">
-                        <img src="img/flower_card_image.webp" alt="cart__image" class="item__img">
+                        <img src="img/card_image.png" alt="cart__image" class="item__img">
                         <div class="info__text">
                             <h3 class="info__name">Название товара</h3>
                             <p class="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -244,7 +244,7 @@
                 </div>
                 <div class="cart__item">
                     <div class="item__info">
-                        <img src="img/flower_card_image.webp" alt="cart__image" class="item__img">
+                        <img src="img/card_image.png" alt="cart__image" class="item__img">
                         <div class="info__text">
                             <h3 class="info__name">Название товара</h3>
                             <p class="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -265,7 +265,7 @@
                 </div>
                 <div class="cart__item">
                     <div class="item__info">
-                        <img src="img/flower_card_image.webp" alt="cart__image" class="item__img">
+                        <img src="img/card_image.png" alt="cart__image" class="item__img">
                         <div class="info__text">
                             <h3 class="info__name">Название товара</h3>
                             <p class="info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -283,6 +283,18 @@
                         </div>
                     </div>
                     <a class="item__delete"><i class="fas fa-times"></i></a>
+                </div>
+                <div class="cart_discont-total_price">
+                    <div class="discount_word">
+                        <div class="discount_word_input">
+                            <label for="word">Есть промокод?</label>
+                            <input type="text">
+                        </div>
+                        <input type="submit" class="discount_word_button" value="Применить">
+                    </div>
+                    <div class="total_price">
+                        <p>Итоговая стоимость: <span>10000руб</span></p>
+                    </div>
                 </div>
                 <div class="cart__buttons">
                     <a href="catalog.html" class="continue__button">Продолжить покупки</a>
@@ -339,6 +351,21 @@
         </footer>
 
         <!-- FOOTER -->
+
+
+        <!-- POP-UP-SEARCH -->
+
+        <div class="popup_body" id="popup_body">
+            <div class="search__popup" id="search__popup">
+                <div class="popup_item">
+                    <input type="text" maxlength="50">
+                    <a href="#" class="popup__button"><i class="fas fa-search"></i></a>
+                </div>
+                <a href="#" class="close__button" id="close__button"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+
+        <!-- POP-UP-SEARCH -->
 
     </div>
 

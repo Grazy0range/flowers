@@ -46,3 +46,24 @@ $(this).next('.accordeon-item__content').slideToggle();
 });
   });
 
+
+
+// Popup search
+
+let popup = document.getElementById("popup_body");
+let popupTogle = document.getElementById("search");
+let popupClose = document.getElementById("close__button");
+
+popupTogle.onclick = function () {
+  popup_body.style.display = "block";
+};
+
+popupClose.onclick = function () {
+  popup_body.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == popup_body) {
+    popopup_body.style.display = "none";
+  }
+};

@@ -218,7 +218,7 @@
             <div class="container">
                 <div class="info__top">
                     <div class="top__left">
-                        <img src="img/flower_card_image.webp" alt="card__img" class="left__img">
+                        <img src="img/card_image.png" alt="card__img" class="left__img">
                     </div>
                     <div class="info__right">
                         <div class="right__top">
@@ -229,7 +229,7 @@
                         </div>
                         <div class="right__buttons">
                             <a class="left__button">Заказать</a>
-                            <a class="right__button">Оформить в 1 клик</a>
+                            <a class="right__button" id="right__button">Оформить в 1 клик</a>
                         </div>
                     </div>
                 </div>
@@ -238,26 +238,63 @@
                     <h3 class="bottom__head">С этим букетом берут:</h3>
                     <ul class="bottom__catalog">
                         <li class="bottom__item">
-                            <img src="img/flower_card_image.webp" alt="catalog-image" class="item__img">
-                            <a class="item__button">Добавить</a>
+                            <img src="img/card_image.png" alt="catalog-image" class="item__img">
+                            <a href="#" class="item__button">Добавить</a>
                         </li>
                         <li class="bottom__item">
-                            <img src="img/flower_card_image.webp" alt="catalog-image" class="item__img">
-                            <a class="item__button">Добавить</a>
+                            <img src="img/card_image.png" alt="catalog-image" class="item__img">
+                            <a href="#" class="item__button">Добавить</a>
                         </li>
                         <li class="bottom__item">
-                            <img src="img/flower_card_image.webp" alt="catalog-image" class="item__img">
-                            <a class="item__button">Добавить</a>
+                            <img src="img/card_image.png" alt="catalog-image" class="item__img">
+                            <a href="#" class="item__button">Добавить</a>
                         </li>
                         <li class="bottom__item">
-                            <img src="img/flower_card_image.webp" alt="catalog-image" class="item__img">
-                            <a class="item__button">Добавить</a>
+                            <img src="img/card_image.png" alt="catalog-image" class="item__img">
+                            <a href="#" class="item__button">Добавить</a>
                         </li>
                     </ul>
                     <button class="catalog__more">Больше</button>
                 </div>
             </div>
         </section>
+
+        <div class="popup" id="popup">
+            <div class="popup__body" id="popup_body">
+                <div class="popup__content">
+                    <a href="#popup" class="popup__close" id="close_button">X</a>
+                    <div class="popup__title">Быстрое оформление заказа</div>
+                    <div class="popup__text">Оставте ваше имя и номер телефона и наш менеджер свяжется с вами в
+                        ближайшее время для уточнения заказа.</div>
+                    <form action="send.php" method="POST">
+                        <input type="text" placeholder="Как вас зовут?">
+                        <input type="text" placeholder="Ваш номер телефона">
+                        <input type="submit" value="Оформить в один клик">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script>
+            // popup item-page
+
+            let pop_up = document.getElementById("popup");
+            let pop_upTogle = document.getElementById("right__button");
+            let pop_upClose = document.getElementById("close_button");
+
+            pop_upTogle.onclick = function () {
+                pop_up.style.display = "block";
+            };
+
+            pop_upClose.onclick = function () {
+                pop_up.style.display = "none";
+            };
+
+            window.onclick = function (event) {
+                if (event.target == popup_body) {
+                    pop_up.style.display = "none";
+                }
+            };
+        </script>
 
         <!-- ITEM-INFO -->
 
@@ -305,6 +342,8 @@
         </footer>
 
         <!-- FOOTER -->
+
+
 
     </div>
 

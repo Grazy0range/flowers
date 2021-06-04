@@ -70,6 +70,11 @@
                         outline: none;
                         padding: 14px 57px;
                         cursor: pointer;
+                        transition: all .3s;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
                     }
 
                     .right__button {
@@ -82,6 +87,12 @@
                         color: #D74C4C;
                         padding: 14px 35px;
                         cursor: pointer;
+                        transition: all .3s;
+
+                        &:hover {
+                            background: #D74C4C;
+                            color: white;
+                        }
                     }
                 }
             }
@@ -112,7 +123,13 @@
                     flex-direction: column;
                     width: 260px;
                     height: 310px;
-                    cursor: pointer;
+
+                    &:hover {
+                        .item__button {
+                            background-color: #D74C4C;
+                            color: white;
+                        }
+                    }
 
                     .item__img {}
 
@@ -128,6 +145,9 @@
                         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
                         border: none;
                         outline: none;
+                        transition: all .3s;
+                        text-decoration: none;
+
 
 
                         &:after {
@@ -153,6 +173,117 @@
                 padding: 13px 93px;
                 cursor: pointer;
                 float: right;
+
+                &:hover {
+                    background: #ec7575;
+                }
+            }
+        }
+    }
+}
+
+.popup {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+
+    .popup__body {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+
+        .popup__content {
+            background-color: #FFEEE6;
+            width: 50%;
+            height: 360px;
+            padding: 30px;
+            position: relative;
+            animation-name: animatrix;
+            animation-duration: 0.4s;
+            cursor: default;
+
+            @keyframes animatrix {
+                from {
+                    top: -900px;
+                    opacity: 0;
+                }
+
+                to {
+                    top: 0;
+                    opacity: 1;
+                }
+            }
+
+            .popup__close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                text-decoration: none;
+                font-size: 30px;
+                color: black;
+
+                &:hover {
+                    color: #D74C4C;
+                }
+
+            }
+
+            .popup__title {
+                font-size: 30px;
+                margin-bottom: 40px;
+            }
+
+            .popup__text {
+                font-size: 18px;
+                line-height: 32px;
+                text-align: center;
+            }
+
+            form {
+                width: 500px;
+                margin: 50px auto 0;
+
+                input[type="text"] {
+                    display: block;
+                    width: 100%;
+                    background: none;
+                    border: 1px solid #b17c2c;
+                    border-radius: 10px;
+                    padding: 8px 0px;
+                    text-align: center;
+                    color: black;
+                    outline: none;
+                    margin-bottom: 15px;
+
+                }
+
+                input[type="submit"] {
+                    background: #D74C4C;
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #FFFFFF;
+                    border: none;
+                    outline: none;
+                    padding: 8px 93px;
+                    cursor: pointer;
+                    width: 100%;
+
+                    &:hover {
+                        background: #ec7575;
+                    }
+
+                }
             }
         }
     }

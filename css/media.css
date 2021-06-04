@@ -257,7 +257,7 @@
   .info .container .info__content .info__form .form__phone {
     margin: 8px auto;
   }
-  .info .container .info__content .info__form input[type=button] {
+  .info .container .info__content .info__form input[type=submit] {
     margin: 15px auto 0;
   }
   .categories .container .categories__list .categories__item {
@@ -621,7 +621,7 @@
   .info .container .info__content .info__form .form__phone label {
     margin-right: 15px;
   }
-  .info .container .info__content .info__form input[type=button] {
+  .info .container .info__content .info__form input[type=submit] {
     width: 67%;
     margin-top: 0;
   }
@@ -890,7 +890,7 @@
   .info .container .info__content .info__form .form__name {
     width: 66%;
   }
-  .info .container .info__content .info__form input[type=button] {
+  .info .container .info__content .info__form input[type=submit] {
     width: 81%;
   }
   .slider__catalog .container .slider .slider__screen .slider__list .slider__item {
@@ -2653,10 +2653,64 @@
     cursor: pointer;
     margin-top: 24px;
   }
+  .wrapper .cart .container .cart_discont-total_price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word {
+    display: flex;
+    align-items: flex-end;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input label {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input input {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid #b17c2c;
+    border-radius: 10px;
+    padding: 8px 0px;
+    text-align: center;
+    color: #232323;
+    outline: none;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    padding: 18px 20px;
+    outline: none;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button:hover {
+    background: #ec7575;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price span {
+    font-weight: 700;
+  }
   .wrapper .cart .container .cart__buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 50px 0;
   }
   .wrapper .cart .container .cart__buttons .continue__button {
     text-decoration: none;
@@ -2737,10 +2791,64 @@
     cursor: pointer;
     margin-top: 24px;
   }
+  .wrapper .cart .container .cart_discont-total_price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word {
+    display: flex;
+    align-items: flex-end;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input input {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid #b17c2c;
+    border-radius: 10px;
+    padding: 8px 0px;
+    text-align: center;
+    color: #232323;
+    outline: none;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    padding: 18px 20px;
+    outline: none;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button:hover {
+    background: #ec7575;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price span {
+    font-weight: 700;
+  }
   .wrapper .cart .container .cart__buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 50px 0;
   }
   .wrapper .cart .container .cart__buttons .continue__button {
     text-decoration: none;
@@ -2821,10 +2929,67 @@
     cursor: pointer;
     margin-top: 24px;
   }
+  .wrapper .cart .container .cart_discont-total_price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word {
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input label {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input input {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid #b17c2c;
+    border-radius: 10px;
+    padding: 8px 0px;
+    text-align: center;
+    color: #232323;
+    outline: none;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    padding: 18px 20px;
+    outline: none;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button:hover {
+    background: #ec7575;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price span {
+    font-weight: 700;
+  }
   .wrapper .cart .container .cart__buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 50px 0;
   }
   .wrapper .cart .container .cart__buttons .continue__button {
     text-decoration: none;
@@ -2905,10 +3070,67 @@
     cursor: pointer;
     margin-top: 0;
   }
+  .wrapper .cart .container .cart_discont-total_price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input label {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input input {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid #b17c2c;
+    border-radius: 10px;
+    padding: 8px 0px;
+    text-align: center;
+    color: #232323;
+    outline: none;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    padding: 18px 20px;
+    outline: none;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button:hover {
+    background: #ec7575;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price span {
+    font-weight: 700;
+  }
   .wrapper .cart .container .cart__buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 30px 0 50px 0;
   }
   .wrapper .cart .container .cart__buttons .continue__button {
     text-decoration: none;
@@ -2989,10 +3211,67 @@
     cursor: pointer;
     margin-top: 0;
   }
+  .wrapper .cart .container .cart_discont-total_price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input label {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_input input {
+    display: block;
+    width: 100%;
+    background: none;
+    border: 1px solid #b17c2c;
+    border-radius: 10px;
+    padding: 8px 0px;
+    text-align: center;
+    color: #232323;
+    outline: none;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: #D74C4C;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s;
+    padding: 18px 20px;
+    outline: none;
+    border: none;
+    line-height: 0;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .discount_word .discount_word_button:hover {
+    background: #ec7575;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .wrapper .cart .container .cart_discont-total_price .total_price span {
+    font-weight: 700;
+  }
   .wrapper .cart .container .cart__buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 30px 0 50px 0;
   }
   .wrapper .cart .container .cart__buttons .continue__button {
     text-decoration: none;
