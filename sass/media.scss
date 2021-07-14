@@ -3280,6 +3280,114 @@
             }
         }
     }
+
+    .popup {
+        font-family: 'Roboto', sans-serif;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+
+        .popup__body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+
+            .popup__content {
+                background-color: #FFEEE6;
+                width: 40%;
+                height: auto;
+                padding: 50px;
+                position: relative;
+                animation-name: animatrix;
+                animation-duration: 0.4s;
+                cursor: default;
+
+                @keyframes animatrix {
+                    from {
+                        top: -900px;
+                        opacity: 0;
+                    }
+
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                .popup__close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+
+                    &:hover {
+                        color: #D74C4C;
+                    }
+
+                }
+
+                .popup__title {
+                    font-size: 30px;
+                    margin-bottom: 40px;
+                }
+
+                .popup__text {
+                    font-size: 18px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                form {
+                    width: 100%;
+                    margin: 50px auto 0;
+
+                    input[type="text"] {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        background: none;
+                        border: 1px solid #b17c2c;
+                        border-radius: 10px;
+                        padding: 8px 0px;
+                        text-align: center;
+                        color: black;
+                        outline: none;
+                        margin-bottom: 15px;
+
+                    }
+
+                    input[type="submit"] {
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                        padding: 8px 93px;
+                        cursor: pointer;
+                        width: 100%;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -3436,6 +3544,114 @@
                     padding: 10px 70px;
                     cursor: pointer;
                     float: right;
+                }
+            }
+        }
+    }
+
+    .popup {
+        font-family: 'Roboto', sans-serif;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+
+        .popup__body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+
+            .popup__content {
+                background-color: #FFEEE6;
+                width: 40%;
+                height: auto;
+                padding: 30px;
+                position: relative;
+                animation-name: animatrix;
+                animation-duration: 0.4s;
+                cursor: default;
+
+                @keyframes animatrix {
+                    from {
+                        top: -900px;
+                        opacity: 0;
+                    }
+
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                .popup__close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+
+                    &:hover {
+                        color: #D74C4C;
+                    }
+
+                }
+
+                .popup__title {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+
+                .popup__text {
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                form {
+                    width: 100%;
+                    margin: 50px auto 0;
+
+                    input[type="text"] {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        background: none;
+                        border: 1px solid #b17c2c;
+                        border-radius: 10px;
+                        padding: 8px 0px;
+                        text-align: center;
+                        color: black;
+                        outline: none;
+                        margin-bottom: 15px;
+
+                    }
+
+                    input[type="submit"] {
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 20px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        width: 100%;
+                        text-align: center;
+                        padding: 8px 0;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
                 }
             }
         }
@@ -3599,6 +3815,114 @@
                     padding: 10px 70px;
                     cursor: pointer;
                     float: right;
+                }
+            }
+        }
+    }
+
+    .popup {
+        font-family: 'Roboto', sans-serif;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+
+        .popup__body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+
+            .popup__content {
+                background-color: #FFEEE6;
+                width: 80%;
+                height: auto;
+                padding: 30px;
+                position: relative;
+                animation-name: animatrix;
+                animation-duration: 0.4s;
+                cursor: default;
+
+                @keyframes animatrix {
+                    from {
+                        top: -900px;
+                        opacity: 0;
+                    }
+
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                .popup__close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+
+                    &:hover {
+                        color: #D74C4C;
+                    }
+
+                }
+
+                .popup__title {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+
+                .popup__text {
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                form {
+                    width: 100%;
+                    margin: 50px auto 0;
+
+                    input[type="text"] {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        background: none;
+                        border: 1px solid #b17c2c;
+                        border-radius: 10px;
+                        padding: 8px 0px;
+                        text-align: center;
+                        color: black;
+                        outline: none;
+                        margin-bottom: 15px;
+
+                    }
+
+                    input[type="submit"] {
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        width: 100%;
+                        text-align: center;
+                        padding: 8px 0;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
                 }
             }
         }
@@ -3768,6 +4092,114 @@
             }
         }
     }
+
+    .popup {
+        font-family: 'Roboto', sans-serif;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+
+        .popup__body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+
+            .popup__content {
+                background-color: #FFEEE6;
+                width: 80%;
+                height: auto;
+                padding: 30px;
+                position: relative;
+                animation-name: animatrix;
+                animation-duration: 0.4s;
+                cursor: default;
+
+                @keyframes animatrix {
+                    from {
+                        top: -900px;
+                        opacity: 0;
+                    }
+
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                .popup__close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+
+                    &:hover {
+                        color: #D74C4C;
+                    }
+
+                }
+
+                .popup__title {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+
+                .popup__text {
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                form {
+                    width: 100%;
+                    margin: 50px auto 0;
+
+                    input[type="text"] {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        background: none;
+                        border: 1px solid #b17c2c;
+                        border-radius: 10px;
+                        padding: 8px 0px;
+                        text-align: center;
+                        color: black;
+                        outline: none;
+                        margin-bottom: 15px;
+
+                    }
+
+                    input[type="submit"] {
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        width: 100%;
+                        text-align: center;
+                        padding: 8px 0;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -3929,6 +4361,114 @@
                     float: none;
                     margin-top: 0;
                     width: 100%;
+                }
+            }
+        }
+    }
+
+    .popup {
+        font-family: 'Roboto', sans-serif;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease-in;
+        cursor: pointer;
+
+        .popup__body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+
+            .popup__content {
+                background-color: #FFEEE6;
+                width: 80%;
+                height: auto;
+                padding: 30px;
+                position: relative;
+                animation-name: animatrix;
+                animation-duration: 0.4s;
+                cursor: default;
+
+                @keyframes animatrix {
+                    from {
+                        top: -900px;
+                        opacity: 0;
+                    }
+
+                    to {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+
+                .popup__close {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    color: black;
+
+                    &:hover {
+                        color: #D74C4C;
+                    }
+
+                }
+
+                .popup__title {
+                    font-size: 24px;
+                    margin-bottom: 40px;
+                }
+
+                .popup__text {
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+
+                form {
+                    width: 100%;
+                    margin: 50px auto 0;
+
+                    input[type="text"] {
+                        display: block;
+                        width: 100%;
+                        max-width: 100%;
+                        background: none;
+                        border: 1px solid #b17c2c;
+                        border-radius: 10px;
+                        padding: 8px 0px;
+                        text-align: center;
+                        color: black;
+                        outline: none;
+                        margin-bottom: 15px;
+
+                    }
+
+                    input[type="submit"] {
+                        background: #D74C4C;
+                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        width: 100%;
+                        text-align: center;
+                        padding: 8px 0;
+
+                        &:hover {
+                            background: #ec7575;
+                        }
+                    }
                 }
             }
         }
@@ -4744,6 +5284,208 @@
                 }
             }
         }
+
+        .buy_form {
+            .container {
+                .buy_form__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .buy_form__description {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #000000;
+                    margin: 16px 0;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+
+                form {
+                    .form_name {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 25px 0 0 0;
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                            position: relative;
+
+                            ::after {
+                                content: 'qwer';
+                                font-size: 16px;
+                                color: red;
+                                position: absolute;
+                            }
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_mail {
+                        display: inline-flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 25px 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_phone {
+                        display: inline-flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 0 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_adress {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_comment {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        textarea {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form__buttons {
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 25px 0 50px 0;
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            text-decoration: none;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 25px;
+                            color: #FFFFFF;
+                            background: #D74C4C;
+                            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                            padding: 0;
+                            transition: all 0.3s;
+                            padding: 13px 40px;
+                            border: none;
+                            cursor: pointer;
+
+                            &:hover {
+                                background: #ec7575;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -4923,6 +5665,208 @@
                 }
             }
         }
+
+        .buy_form {
+            .container {
+                .buy_form__head {
+                    font-family: 'Pacifico', cursive;
+                    font-size: 30px;
+                    line-height: 53px;
+                    color: #D74C4C;
+                }
+
+                .buy_form__description {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #000000;
+                    margin: 16px 0;
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+
+                form {
+                    .form_name {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 25px 0 0 0;
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                            position: relative;
+
+                            ::after {
+                                content: 'qwer';
+                                font-size: 16px;
+                                color: red;
+                                position: absolute;
+                            }
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_mail {
+                        display: inline-flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 25px 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_phone {
+                        display: inline-flex;
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 0 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_adress {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0 0 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form_comment {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 25px 0;
+
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        textarea {
+                            display: block;
+                            width: 100%;
+                            background: none;
+                            border: 1px solid #b17c2c;
+                            border-radius: 10px;
+                            padding: 16px 0px;
+                            margin-bottom: 5px;
+                            text-align: center;
+                            color: #232323;
+                            outline: none;
+                        }
+                    }
+
+                    .form__buttons {
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 25px 0 50px 0;
+
+                        label {
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 14px;
+                            line-height: 26px;
+                            color: #000000;
+                        }
+
+                        input {
+                            text-decoration: none;
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 12px;
+                            line-height: 25px;
+                            color: #FFFFFF;
+                            background: #D74C4C;
+                            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                            padding: 0;
+                            transition: all 0.3s;
+                            padding: 8px 25px;
+                            border: none;
+                            cursor: pointer;
+
+                            &:hover {
+                                background: #ec7575;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -5073,417 +6017,417 @@
 // DELIVERY
 
 
-// BUY-FORM
+// // BUY-FORM
 
-@media (min-width: 401px) and (max-width: 576px) {
-    .buy_form {
-        .container {
-            .buy_form__head {
-                font-family: 'Pacifico', cursive;
-                font-size: 30px;
-                line-height: 53px;
-                color: #D74C4C;
-            }
+// @media (min-width: 401px) and (max-width: 576px) {
+//     .buy_form {
+//         .container {
+//             .buy_form__head {
+//                 font-family: 'Pacifico', cursive;
+//                 font-size: 30px;
+//                 line-height: 53px;
+//                 color: #D74C4C;
+//             }
 
-            .buy_form__description {
-                font-family: 'Roboto', sans-serif;
-                font-size: 22px;
-                line-height: 26px;
-                color: #000000;
-                margin: 16px 0;
+//             .buy_form__description {
+//                 font-family: 'Roboto', sans-serif;
+//                 font-size: 22px;
+//                 line-height: 26px;
+//                 color: #000000;
+//                 margin: 16px 0;
 
-                span {
-                    font-weight: 700;
-                }
-            }
+//                 span {
+//                     font-weight: 700;
+//                 }
+//             }
 
-            form {
-                .form_name {
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 25px 0 0 0;
+//             form {
+//                 .form_name {
+//                     display: flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 25px 0 0 0;
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                        position: relative;
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                         position: relative;
 
-                        ::after {
-                            content: 'qwer';
-                            font-size: 16px;
-                            color: red;
-                            position: absolute;
-                        }
-                    }
+//                         ::after {
+//                             content: 'qwer';
+//                             font-size: 16px;
+//                             color: red;
+//                             position: absolute;
+//                         }
+//                     }
 
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                .form_mail {
-                    display: inline-flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 25px 0 25px 0;
-
-
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
-
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
-
-                .form_phone {
-                    display: inline-flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 0 0 25px 0;
+//                 .form_mail {
+//                     display: inline-flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 25px 0 25px 0;
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                .form_adress {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 0 0 25px 0;
-
-
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
-
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
-
-                .form_comment {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 25px 0;
+//                 .form_phone {
+//                     display: inline-flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 0 0 25px 0;
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                    textarea {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                .form__buttons {
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 25px 0 50px 0;
-
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
-
-                    input {
-                        text-decoration: none;
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 25px;
-                        color: #FFFFFF;
-                        background: #D74C4C;
-                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-                        padding: 0;
-                        transition: all 0.3s;
-                        padding: 13px 40px;
-                        border: none;
-                        cursor: pointer;
-
-                        &:hover {
-                            background: #ec7575;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                 .form_adress {
+//                     display: flex;
+//                     flex-direction: column;
+//                     margin: 0 0 25px 0;
 
 
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
+
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
+
+//                 .form_comment {
+//                     display: flex;
+//                     flex-direction: column;
+//                     margin: 25px 0;
 
 
-@media (max-width: 400px) {
-    .buy_form {
-        .container {
-            .buy_form__head {
-                font-family: 'Pacifico', cursive;
-                font-size: 30px;
-                line-height: 53px;
-                color: #D74C4C;
-            }
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-            .buy_form__description {
-                font-family: 'Roboto', sans-serif;
-                font-size: 18px;
-                line-height: 26px;
-                color: #000000;
-                margin: 16px 0;
+//                     textarea {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                span {
-                    font-weight: 700;
-                }
-            }
+//                 .form__buttons {
+//                     display: flex;
+//                     justify-content: space-between;
+//                     margin: 25px 0 50px 0;
 
-            form {
-                .form_name {
-                    display: flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 25px 0 0 0;
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                        position: relative;
+//                     input {
+//                         text-decoration: none;
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 25px;
+//                         color: #FFFFFF;
+//                         background: #D74C4C;
+//                         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+//                         padding: 0;
+//                         transition: all 0.3s;
+//                         padding: 13px 40px;
+//                         border: none;
+//                         cursor: pointer;
 
-                        ::after {
-                            content: 'qwer';
-                            font-size: 16px;
-                            color: red;
-                            position: absolute;
-                        }
-                    }
-
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
-
-                .form_mail {
-                    display: inline-flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 25px 0 25px 0;
+//                         &:hover {
+//                             background: #ec7575;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
-
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
-
-                .form_phone {
-                    display: inline-flex;
-                    flex-direction: column;
-                    width: 100%;
-                    margin: 0 0 25px 0;
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
+// @media (max-width: 400px) {
+//     .buy_form {
+//         .container {
+//             .buy_form__head {
+//                 font-family: 'Pacifico', cursive;
+//                 font-size: 30px;
+//                 line-height: 53px;
+//                 color: #D74C4C;
+//             }
 
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//             .buy_form__description {
+//                 font-family: 'Roboto', sans-serif;
+//                 font-size: 18px;
+//                 line-height: 26px;
+//                 color: #000000;
+//                 margin: 16px 0;
 
-                .form_adress {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 0 0 25px 0;
+//                 span {
+//                     font-weight: 700;
+//                 }
+//             }
+
+//             form {
+//                 .form_name {
+//                     display: flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 25px 0 0 0;
+
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                         position: relative;
+
+//                         ::after {
+//                             content: 'qwer';
+//                             font-size: 16px;
+//                             color: red;
+//                             position: absolute;
+//                         }
+//                     }
+
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
+
+//                 .form_mail {
+//                     display: inline-flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 25px 0 25px 0;
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                    input {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                .form_comment {
-                    display: flex;
-                    flex-direction: column;
-                    margin: 25px 0;
+//                 .form_phone {
+//                     display: inline-flex;
+//                     flex-direction: column;
+//                     width: 100%;
+//                     margin: 0 0 25px 0;
 
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                    textarea {
-                        display: block;
-                        width: 100%;
-                        background: none;
-                        border: 1px solid #b17c2c;
-                        border-radius: 10px;
-                        padding: 16px 0px;
-                        margin-bottom: 5px;
-                        text-align: center;
-                        color: #232323;
-                        outline: none;
-                    }
-                }
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-                .form__buttons {
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 25px 0 50px 0;
+//                 .form_adress {
+//                     display: flex;
+//                     flex-direction: column;
+//                     margin: 0 0 25px 0;
 
-                    label {
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 14px;
-                        line-height: 26px;
-                        color: #000000;
-                    }
 
-                    input {
-                        text-decoration: none;
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 12px;
-                        line-height: 25px;
-                        color: #FFFFFF;
-                        background: #D74C4C;
-                        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-                        padding: 0;
-                        transition: all 0.3s;
-                        padding: 8px 25px;
-                        border: none;
-                        cursor: pointer;
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
 
-                        &:hover {
-                            background: #ec7575;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+//                     input {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
 
-// BUY-FORM
+//                 .form_comment {
+//                     display: flex;
+//                     flex-direction: column;
+//                     margin: 25px 0;
+
+
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
+
+//                     textarea {
+//                         display: block;
+//                         width: 100%;
+//                         background: none;
+//                         border: 1px solid #b17c2c;
+//                         border-radius: 10px;
+//                         padding: 16px 0px;
+//                         margin-bottom: 5px;
+//                         text-align: center;
+//                         color: #232323;
+//                         outline: none;
+//                     }
+//                 }
+
+//                 .form__buttons {
+//                     display: flex;
+//                     justify-content: space-between;
+//                     margin: 25px 0 50px 0;
+
+//                     label {
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 14px;
+//                         line-height: 26px;
+//                         color: #000000;
+//                     }
+
+//                     input {
+//                         text-decoration: none;
+//                         font-family: 'Roboto', sans-serif;
+//                         font-size: 12px;
+//                         line-height: 25px;
+//                         color: #FFFFFF;
+//                         background: #D74C4C;
+//                         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+//                         padding: 0;
+//                         transition: all 0.3s;
+//                         padding: 8px 25px;
+//                         border: none;
+//                         cursor: pointer;
+
+//                         &:hover {
+//                             background: #ec7575;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // BUY-FORM

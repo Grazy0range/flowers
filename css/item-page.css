@@ -168,8 +168,8 @@
 }
 .popup .popup__body .popup__content {
   background-color: #FFEEE6;
-  width: 50%;
-  height: 360px;
+  width: 40%;
+  height: auto;
   padding: 30px;
   position: relative;
   -webkit-animation-name: animatrix;
@@ -219,12 +219,13 @@
   text-align: center;
 }
 .popup .popup__body .popup__content form {
-  width: 500px;
+  width: 100%;
   margin: 50px auto 0;
 }
 .popup .popup__body .popup__content form input[type=text] {
   display: block;
   width: 100%;
+  max-width: 100%;
   background: none;
   border: 1px solid #b17c2c;
   border-radius: 10px;
